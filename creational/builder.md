@@ -17,22 +17,22 @@ type Speed float64
 
 const (
     MPH Speed = 1
-    KPH       = 1.60934
+    KPH Speed = 1.60934
 )
 
 type Color string
 
 const (
     BlueColor  Color = "blue"
-    GreenColor       = "green" 
-    RedColor         = "red"      
+    GreenColor Color = "green" 
+    RedColor   Color = "red"      
 )
 
 type Wheels string
 
 const (
     SportsWheels Wheels = "sports"
-    SteelWheels         = "steel"
+    SteelWheels  Wheels = "steel"
 )
 
 type Builder interface {
