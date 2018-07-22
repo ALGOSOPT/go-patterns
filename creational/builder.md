@@ -24,8 +24,8 @@ type Color string
 
 const (
     BlueColor  Color = "blue"
-    GreenColor       = "green"    * Color가 없는데, 이렇게 변수 타입을 지정하지 않으면 
-    RedColor         = "red"        위의 변수타입을 그대로 받아온다
+    GreenColor       = "green" 
+    RedColor         = "red"      
 )
 
 type Wheels string
